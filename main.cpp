@@ -5,6 +5,7 @@
 #include <atomic>
 #include <fstream>
 #include <chrono>
+#include <functional>
 #include "BlockingQueue.hpp"
 
 int count_lines_in_file(const std::string& filepath) {
